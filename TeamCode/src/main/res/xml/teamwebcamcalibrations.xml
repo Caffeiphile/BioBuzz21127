@@ -7,13 +7,14 @@
             <goBILDA5202SeriesMotor name="FR" port="1"/>
             <goBILDA5202SeriesMotor name="BL" port="2"/>
             <goBILDA5202SeriesMotor name="BR" port="3"/>
-            <goBILDAPinpoint name="pinpoint" port="0" bus="0"/>
+            <goBILDAPinpoint name="pinpoint" port="1" bus="1"/>
+            <AnalogDevice name="tEnc" port="0"/>
         </LynxModule>
-        <LynxModule name="Expansion Hub 0" port="0">
-            <goBILDA5202SeriesMotor name="LFW" port="0"/>
-            <goBILDA5202SeriesMotor name="RFW" port="3"/>
+        <LynxModule name="Expansion Hub 2" port="2">
+            <goBILDA5202SeriesMotor name="RFW" port="0"/>
             <goBILDA5202SeriesMotor name="turret" port="1"/>
             <goBILDA5202SeriesMotor name="intake" port="2"/>
+            <goBILDA5202SeriesMotor name="LFW" port="3"/>
         </LynxModule>
     </LynxUsbDevice>
 </Robot>
